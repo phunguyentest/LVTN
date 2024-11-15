@@ -1,0 +1,35 @@
+.taobaocao {
+    margin-top: 6cm;
+}
+
+.card {
+    height: auto;
+    border: 2px solid rgb(254, 248, 248);
+}
+
+.listproject {
+    margin-top: -30cm;
+    margin-left: 18cm;
+    width: 250px;
+}
+
+@media (max-width: 768px) { 
+    .taobaocao {
+        margin-top: 1cm; 
+    }
+
+    .listproject {
+        margin-top: 2cm; 
+        margin-left: 0; 
+        width: 50%; 
+    }
+
+    .card {
+        margin-top: 20px;
+        border: 1px solid rgb(254, 248, 248); 
+    }
+
+    .add-project {
+        width: 100%; 
+    }
+}
